@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: picknpayapp/CICD
+name: contactbook/CICD
 
 # Controls when the workflow will run
 on:
@@ -28,7 +28,7 @@ jobs:
       - name: Build and deploy the Docker Image
         env:
           HEROKU_API_KEY: 59671249-1342-4d46-a9c9-ddc5b1f11e55
-          APP_NAME: pick-n-pay
+          APP_NAME: contact-storeapi
         run: |
           docker build -t contact-storeapi .
           docker tag contact-storeapi registry.heroku.com
