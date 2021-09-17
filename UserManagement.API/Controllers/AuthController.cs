@@ -1,11 +1,12 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Threading.Tasks;
+﻿using System;
+using AutoMapper;
 using UserManagement.Core;
 using UserManagement.DTOs;
 using UserManagement.Model;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Http;
+
 
 namespace UserManagement.API.Controllers
 {
